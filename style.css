@@ -1,0 +1,98 @@
+body{
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(41, 14, 81);
+  align-items: center;
+  justify-content: center;
+}
+.input{
+  outline: 0;
+  width: 300px;
+  padding: 10px 10px;
+  background-color: rgb(79, 0, 128);
+  border: none;
+  border-radius: 5px;
+}
+.box{
+  display: flex;
+  
+ 
+  margin-top: 20px;
+  background-color: rgb(85, 0, 128);
+  border-radius: 10px;
+
+}
+.contains-profile-image{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 150px;
+ 
+
+}
+.image{
+  display: flex;
+  margin-top: 60px;
+  height:80px;
+  border-radius: 40px;
+  object-fit: contain;
+  object-position: center;
+  
+  
+}
+.name-profile{
+  display: flex;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+.bio{
+  display: flex;
+  color: white;
+}
+#repos{
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  
+  
+  
+  
+  
+}
+.hashtag{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+  margin-right: 50px;
+}
+.repo{
+  display: flex;
+  margin-right: 10px;
+  padding: 5px;  
+  background-color: rgb(35, 35, 35);
+  color: white;
+  margin-top: 5px;
+  
+}
+.information{
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  
+}
